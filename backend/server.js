@@ -27,6 +27,6 @@ app.use(cors(corsOptions))
 app.use(express.json())
 app.use(express.urlencoded())
 
-app.use('/api/users', userRoutes)
+app.use('/', userRoutes)
 
 app.listen(port, ()=>console.log(`Server started on port ${port}`))
