@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:wght@100;300&family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+
+.login-form {
+    --primary-color: #1a1a1a;
+    --button-color: #742222;
+    background-color: var(--primary-color);
+    padding-top: 5vh;
+    padding-left: 30vw;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.login-form h1 .icon,
+.login-form h1 .text {
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+.login-form .login-form-container {
+    background-color: #1f1f1f;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    width: 40vw;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+.login-form form {
+    margin-top: 10vh;
+    height: 50vh;
+}
+
+.login-form input {
+    width: 30vw;
+    box-sizing: border-box;
+    height: 7vh;
+    margin-bottom: 3.5vh;
+    padding-left: 1vw;
+    background: none;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-color: var(--button-color);
+    font-family: 'Montserrat';
+}
+
+.login-form .btn {
+    width: 30vw;
+    margin-top: 4vh;
+    height: 7vh;
+    background-color: var(--button-color);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login-form .btn:hover {
+    box-shadow: inset 0 0 0 50em rgba(255, 255, 255, 0.05);;
+}
+
+.login-form .btn a {
+    text-decoration: none;
+}
+
+.login-form form p {
+    margin-top: 4vh;
+    width: 30vw;
+    margin-bottom: 0vh;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+}
