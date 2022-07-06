@@ -87,3 +87,5 @@ module.exports = {
     registerUser,
     loginUser
 }
+
+//When User registers create a Liked Songs playlist
